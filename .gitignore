@@ -1,0 +1,5 @@
+#local files
+.vs/
+
+#build files
+build/

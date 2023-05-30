@@ -1,12 +1,18 @@
 #include<iostream>
-#include "testHeader.h"
-using namespace std;
+#include<simpleThread.h>
 
-#pragma comment(lib,"somecode.lib")
+
+#pragma comment(lib, "somecode.lib")
+
+void* thread(void* vargp)
+{
+	printf("Hello world!\n");
+	return nullptr;
+}
 
 int main()
 {
-	HelloWorld();
+	
 	system("pause");
 	return 0;
 }

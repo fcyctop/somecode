@@ -7,5 +7,3 @@
 #else
 #define DLLAPI __declspec(dllimport)
 #endif // __DLL_EXPORTS__
-
-DLLAPI void HelloWorld();

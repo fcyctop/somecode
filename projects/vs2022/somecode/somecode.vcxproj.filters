@@ -1,18 +1,33 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <ItemGroup>
-    <Filter Include="test">
-      <UniqueIdentifier>{dd023aa1-8b79-4723-bb02-b02cffec617e}</UniqueIdentifier>
+    <Filter Include="heng">
+      <UniqueIdentifier>{0afcb13e-9adc-4d3b-98dc-2ee7beb931e0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="public">
+      <UniqueIdentifier>{471348da-297d-4ec2-90af-01d63ee535d2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="heng\multithreading">
+      <UniqueIdentifier>{dc6b90a1-d739-4543-95b0-7a651f8b18c9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="heng\multithreading\src">
+      <UniqueIdentifier>{60ee8e80-3beb-4cbc-8dd7-4b1079cfa799}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="heng\multithreading\include">
+      <UniqueIdentifier>{f672ea45-cd2a-4b70-bb4c-458e0cc7d37a}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="..\..\..\code\test\testHeader.h">
-      <Filter>test</Filter>
+    <ClInclude Include="..\..\..\code\public\predefine.h">
+      <Filter>public</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\code\heng\multithreading\include\simpleThread.h">
+      <Filter>heng\multithreading\include</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="..\..\..\code\test\testSource.cpp">
-      <Filter>test</Filter>
+    <ClCompile Include="..\..\..\code\heng\multithreading\src\simpleThread.cpp">
+      <Filter>heng\multithreading\src</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>
